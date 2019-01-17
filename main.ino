@@ -2,7 +2,6 @@
 #include <Wire.h>
 
 #define XSHUT_pin 3
-
 #define Sensor_newAddress 29
 
 VL53L0X Sensor;
@@ -24,10 +23,8 @@ void setup() {
 void loop() {
 
 Serial.print(Sensor.readRangeContinuousMillimeters());
-
 Serial.print("                           ");
 
   
-  // put your main code here, to run repeatedly:
 
 }
