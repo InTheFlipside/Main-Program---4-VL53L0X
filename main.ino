@@ -23,7 +23,7 @@ void setup() {
 void loop() {
 
 Serial.print(Sensor.readRangeContinuousMillimeters());
-Serial.print("                           ");
+Serial.println("                           ");
 
   
 
